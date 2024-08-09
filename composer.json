@@ -55,7 +55,9 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "App\\": "src/App",
+            "AcMarche\\A\\": "src/AcMarche/A/src",
+            "AcMarche\\B\\": "src/AcMarche/B/src"
         }
     },
     "autoload-dev": {
